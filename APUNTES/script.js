@@ -1,10 +1,9 @@
-/*
 //Asignar variables
 let animales = ["perro" , "gato" , "conejo" , "pez", "aguila"]
 
 console.log(animales)
 
-//acceder  aun elemento
+//acceder a un elemento
 
 console.log(animales [2])
 console.log(animales [3])
@@ -58,8 +57,6 @@ console.log(animales.sort())
 //Eliminar en un indice especifico
 animales.splice(0, 1)
 console.log(animales)
-*/
-
 
 
 //let animales = ["perro" , "gato" , "conejo" , "pez", "aguila"]
