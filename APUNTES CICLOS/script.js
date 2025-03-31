@@ -34,7 +34,7 @@ for (i=0; i < 10; i++) { // i--- iteracion
 */
 
 //Ciclo for of
-
+/*
 let nombres = ["carlos","pepe","ana","luisa"]
 
 for (const nombre of nombres) {
@@ -42,3 +42,23 @@ for (const nombre of nombres) {
 }
 
 console.log("Estoy Fuera!")
+
+*/
+
+//Continue y Break
+//Si necesitas detener el bucle por completo, usa break.
+//Si solo quieres omitir una iteración, usa continue
+
+let estudiantes = [20,19,21,39,12]
+
+let mayor = 0
+
+for (let i = 0; i < estudiantes.length; i++) {
+    if (estudiantes [i] > mayor) {
+        mayor = estudiantes [i]
+
+        console.log("El estudiante mayor era ", mayor)
+    }
+}
+
+console.log("El estudiante mayor al final es", mayor)
