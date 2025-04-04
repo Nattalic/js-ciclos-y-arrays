@@ -1,7 +1,8 @@
 //genere un numero aleatorio entre el 1 y el 10
 
 let intento
-const numeroRandom = 5 
+
+let numeroRandom = Math.floor(Math.random() * 10) + 1 //numero randomm del 10 al 1
 
 
 // != --- Signfica "Distinto de" // == ---- Compara solo el valor, sin importar el tipo de dato.
